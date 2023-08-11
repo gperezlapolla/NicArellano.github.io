@@ -1,0 +1,44 @@
+/* body {
+    background-color:rgb(221, 220, 212);
+} */
+
+.titulo_principal{
+    /* background-color: rgb(141, 141, 133); */
+    margin: 0px;
+    display: flex;
+    justify-content:center;
+    padding: 5px;
+    outline-style: solid;
+    color: white;
+}
+
+.tabla_one{
+    border: solid;
+    
+    
+}
+
+.datos_y_redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    outline-style: solid;
+
+}
+
+.educacion {
+    
+   outline-style: solid;
+    
+}
+.trayectoria {
+    outline-style: solid;
+}
+
+/* .efecto{
+    transition: all 0.3s;
+}
+
+.efecto:hover {
+    transform: scale(0.2);
+} */
