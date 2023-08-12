@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(238, 233, 171);
+    background-color: rgb(238, 233, 171);
 }
 
 .titulo_principal {
@@ -11,15 +11,14 @@ body {
     color: white;
 }
 
-.tabla_one {
-    border: solid;
-
-
-}
 
 .educacion {
     outline-style: solid;
     padding: 5px;
+}
+
+.educacion-titulo {
+    color: gray;
 }
 
 .datos_y_redes {
@@ -30,15 +29,40 @@ body {
     gap: 15px;
 }
 
+.datos_redes_titulo {
+    color: gray;
+}
+
 .ap-ac-ho {
     outline-style: solid;
     padding: 5px;
+}
+
+.aptitudes_titulo {
+    color: grey;
+}
+
+.actitudes_titulo {
+    color: grey;
+}
+
+.hobbies_titulo {
+    color: grey;
 }
 
 .trayectoria {
     outline-style: solid;
     padding: 5px;
 }
+
+.trayectoria_titulo {
+    color: gray;
+}
+
 .footer {
     outline-style: solid;
+}
+
+.footer_titulo {
+    color: gray;
 }
