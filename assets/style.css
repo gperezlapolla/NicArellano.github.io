@@ -1,44 +1,40 @@
-/* body {
-    background-color:rgb(221, 220, 212);
-} */
+.titulo_principal {
 
-.titulo_principal{
-    /* background-color: rgb(141, 141, 133); */
     margin: 0px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 5px;
-    outline-style: solid;
     color: white;
 }
 
-.tabla_one{
+.tabla_one {
     border: solid;
-    
-    
-}
 
-.datos_y_redes{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    outline-style: solid;
 
 }
 
 .educacion {
-    
-   outline-style: solid;
-    
+    outline-style: solid;
+    padding: 5px;
 }
+
+.datos_y_redes {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    outline-style: solid;
+    gap: 15px;
+}
+
+.ap-ac-ho {
+    outline-style: solid;
+    padding: 5px;
+}
+
 .trayectoria {
     outline-style: solid;
+    padding: 5px;
 }
-
-/* .efecto{
-    transition: all 0.3s;
+.footer {
+    outline-style: solid;
 }
-
-.efecto:hover {
-    transform: scale(0.2);
-} */
