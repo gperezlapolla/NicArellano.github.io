@@ -1,120 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Nicolás Arellano</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
-
+    
+    <title>Curriculum Vitae Nic Arellano</title>
 </head>
-
 <body>
-
-    <h1 class="titulo_principal bg-dark">NICOLAS ARELLANO</h1>
-    <div class="row ">
-
-        <div class="educacion col-8">
-            <h2 class="educacion-titulo text-center">Educación</h2>
-            <ul>
-                <li>Bootcamp Full Stack Javascript, Academia Desafio Latam (en curso), Junio 2023.</li>
-                <li>Soporte Vital Cardiovascular Avanzado (ACLS), Mutual Capacitaciones, Agosto-Septiembre 2022.</li>
-                <li>Curso Introducción a la Ecografía Pulmonar, Agosto 2021.</li>
-                <li>Diplomado en Medicina Intensiva 2021, Pontificia Universidad Católica de Chile, Agosto 2020-Abril
-                    2021.
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="#">Mi CV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Mi Portafolio</a>
                 </li>
-                <li>Curso de Prevención y Control de IAAS 80 hrs, SEPROTEC, Noviembre-Diciembre 2019.</li>
-                <li>Curso de Kinesiología Intensiva, 220 hrs teórico práctico, versión XXVII, Colegio de Kinesiólogos de
-                    Chile, Abril-Agosto 2019.</li>
-                <li>Curso de Capacitación de Enfermedades Respiratorias del Adulto (ERA), 70 hrs pedagógicas, RespIRA
-                    Chile,
-                    Santiago de Chile, Enero 2019.</li>
-                <li>Kinesiólogo, Licenciado en Kinesiología con distinción máxima, Universidad Autónoma de Chile,
-                    Temuco,
-                    2014-2018.</li>
             </ul>
         </div>
-        <div class="datos_y_redes col-4">
-            <img class="mt-3 border border-dark" src="img/foto_nico.jpg" width="180px" height="250px"
-                alt="foto_de_nicolas_arellano" />
-            <div>
-                <h2 class="datos_redes_titulo">Datos & redes</H2>
-                <P>Rut: 19.194.631-6</P>
-                <p>Correo: kine.arellano.d@gmail.com</p>
-                <p>Dirección: Duble almeyda #3274 depto 203, Ñuñoa, Santiago.</p>
-                <a href="portafolio.html">Portafolio TI</a><br><a
-                    href="https://www.linkedin.com/in/nicol%C3%A1s-arellano-dur%C3%A1n-148283142/">Linkedin</a>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/foto_nico.jpg" alt="Mi Foto" class="profile-img">
+                <h2>Nicolás Arellano</h2>
+            </div>
+            <div class="col-md-9">
+                <div id="educacion" class="section">
+                    <h2>Educación</h2>
+                    <p>·Bootcamp Full Stack Javascript, Academia Desafio Latam (en curso), Junio 2023.<br>
+                        ·Soporte Vital Cardiovascular Avanzado (ACLS), Mutual Capacitaciones, Agosto-Septiembre 2022.<br>
+                        ·Curso Introducción a la Ecografía Pulmonar, Agosto 2021.<br>
+                        ·Diplomado en Medicina Intensiva 2021, Pontificia Universidad Católica de Chile, Agosto 2020-Abril 2021.<br>
+                        ·Curso de Prevención y Control de IAAS 80 hrs, SEPROTEC, Noviembre-Diciembre 2019.<br>
+                        ·Curso de Kinesiología Intensiva, 220 hrs teórico práctico, versión XXVII, Colegio de Kinesiólogos de Chile, Abril-Agosto 2019.<br>
+                        ·Curso de Capacitación de Enfermedades Respiratorias del Adulto (ERA), 70 hrs pedagógicas, RespIRA Chile, Santiago de Chile, Enero 2019.<br>
+                        ·Kinesiólogo, Licenciado en Kinesiología con distinción máxima, Universidad Autónoma de Chile, Temuco, 2014-2018.</p>
+                    
+                </div>
+                <div id="experiencia" class="section">
+                    <h2>Experiencia Laboral</h2>
+                    <p>Abril 2020 (ACTUAL)
+                        Kinesiólogo UPC Hospital del Salvador, Providencia, Santiago, Chile.<br>
+                        Diciembre 2019 - Abril 2020
+                        Kinesiólogo ASOKINE, Santiago, Chile.<br>
+                        Noviembre 2019 - Febrero 2020
+                        Reemplazo UPC Hospital Pitrufquén, Araucanía, Chile.<br>
+                        Julio - Agosto 2019
+                        Pasante UPC Adulto 84 hrs, Clínica INDISA, Providencia, Santiago de Chile.<br>
+                        Enero 2019
+                        Pasante curso ERA 16 hrs, CESFAM SANTA ANSELMA - CESFAM SAN JOAQUIN, Santiago de Chile.<br>
+                        Septiembre - Noviembre 2018
+                        Practicante profesional de Kinesiología 320 hrs, Hospital Makewe.<br>
+                        Agosto - Septiembre 2018
+                        Practicante profesional de Kinesiología 320 hrs, CESFAM PUEBLO NUEVO, Temuco.<br>
+                        Junio - Agosto 2018
+                        Practicante Profesional de Kinesiología 320 hrs. INAREPS (Instituto Nacional de Rehabilitación Psicofísica del Sur), Mar Del Plata, Argentina.<br>
+                        Marzo - Mayo 2018
+                        Practicante Profesional de Kinesiología 320 hrs, Hospital Abraham Godoy Peña, Lautaro.<br>
+                        Abril 2015 - Noviembre 2017
+                        Mentor y Ayudante en ciencias básicas en Salud, Anatomía General-Anatomía y Cinesiología, en la carrera de Kinesiología, Universidad Autónoma de Chile, Temuco.</p>
+                    
+                </div>
             </div>
         </div>
     </div>
 
-
-    <div class="row">
-        <div class="trayectoria col-8">
-            <h2 class="trayectoria_titulo text-center">Trayectoria Laboral</h2>
-            <ul class="mb-3">
-                <li>Abril 2020 (ACTUAL)<br>Kinesiólogo UPC Hospital del Salvador, Providencia, Santiago,
-                    Chile. </li>
-                <li>Diciembre 2019 - Abril 2020<br>Kinesiólogo ASOKINE, Santiago, Chile.</li>
-                <li>Noviembre 2019 - Febrero 2020<br>Reemplazo UPC Hospital Pitrufquén, Araucanía, Chile.</li>
-                <li>Julio - Agosto 2019<br>Pasante UPC Adulto 84 hrs, Clínica INDISA, Providencia, Santiago de Chile.
-                </li>
-                <li>Enero 2019<br>Pasante curso ERA 16 hrs, CESFAM SANTA ANSELMA - CESFAM SAN JOAQUIN, Santiago de
-                    Chile.
-                </li>
-                <li>Septiembre - Noviembre 2018<br>Practicante profesional de Kinesiología 320 hrs, Hospital Makewe.
-                </li>
-                <li>Agosto - Septiembre 2018<br>Practicante profesional de Kinesiología 320 hrs, CESFAM PUEBLO NUEVO,
-                    Temuco.</li>
-                <li>Junio - Agosto 2018<br>Practicante Profesional de Kinesiología 320 hrs. INAREPS (Instituto Nacional
-                    de
-                    Rehabilitación Psicofísica del Sur), Mar Del Plata, Argentina.</li>
-                <li>Marzo - Mayo 2018<br>Practicante Profesional de Kinesiología 320 hrs, Hospital Abraham Godoy Peña,
-                    Lautaro.</li>
-                <li>Abril 2015 - Noviembre 2017<br>Mentor y Ayudante en ciencias básicas en Salud, Anatomía
-                    General-Anatomía
-                    y Cinesiología, en la carrera de Kinesiología, Universidad Autónoma de Chile, Temuco.</li>
-            </ul>
-        </div>
-        <div class="ap-ac-ho col-4">
-            <h3 class="aptitudes_titulo text-center">Aptitudes</h3>
-            <ul>
-                <li>Soporte ventilatorio y de oxigenación avanzado invasivo/ no invasivo</li>
-                <li>Rehabilitación neuromusuclar paciente crítico</li>
-                <li>Manejo avanzado disincronías paciente-ventilador</li>
-                <li>Manejo clínico de vía aerea artificial</li>
-                <li>Manejo clínico y apoyo destete ventilatorio/ taqueostomía percutánea/ fibrobroncoscopía</li>
-            </ul>
-            <h3 class="actitudes_titulo text-center">Actitudes</h3>
-            <ul>
-                <li>Proactivo, liderazgo, empático, responsable, vocación de servicio.</li>
-            </ul>
-            <h3 class="hobbies_titulo text-center">Hobbies</h3>
-            <ul>
-                <li>Deportes, Tecnologías del entretenimiento.</li>
-            </ul>
-        </div>
-
-        <div class="footer text-center">
-            <h3 class="footer_titulo">Referencias</h3>
-
-            <ul>
-                <li>Carlos Ibañez, Jefe Socialmeds Hospital Salvador, Santiago, 977680082, ibanezlabra@gmail.com.
-                </li>
-                <li>Jaime Ubilla, Director de la carrera de Kinesiología, Universidad Autónoma de Chile,Temuco,
-                    452895136.
-                    jaime.ubilla@uautonoma.cl</li>
-                <li>René Rivas, Kinesiólogo Sala IRA, CESFAM PUEBLO NUEVO, Temuco, 56998843107. renerivas@gmail.com
-                </li>
-            </ul>
-        </div>
+    <div class="footer">
+        <p>&copy; 2023 Nicolás Arellano - Todos los derechos reservados</p>
+        <p>Contacto: kine.arellano.d@gmail.com | Rut: 19.194.631-6</p>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

@@ -1,68 +1,31 @@
 body {
-    background-color: rgb(238, 233, 171);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.titulo_principal {
-
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    color: white;
+.navbar {
+    background-color: gray;
 }
 
-
-.educacion {
-    outline-style: solid;
-    padding: 5px;
-}
-
-.educacion-titulo {
-    color: gray;
-}
-
-.datos_y_redes {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    outline-style: solid;
-    gap: 15px;
-}
-
-.datos_redes_titulo {
-    color: gray;
-}
-
-.ap-ac-ho {
-    outline-style: solid;
-    padding: 5px;
-}
-
-.aptitudes_titulo {
-    color: grey;
-}
-
-.actitudes_titulo {
-    color: grey;
-}
-
-.hobbies_titulo {
-    color: grey;
-}
-
-.trayectoria {
-    outline-style: solid;
-    padding: 5px;
-}
-
-.trayectoria_titulo {
-    color: gray;
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
 }
 
 .footer {
-    outline-style: solid;
+    background-color:gray;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
 }
 
-.footer_titulo {
-    color: gray;
+.section {
+    padding: 40px;
+}
+
+.profile-img {
+    max-width: 150px;
+    border-radius: 50%;
 }
